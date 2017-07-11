@@ -15,7 +15,7 @@ set(gca,'YTick', 6:3:18);
 set(gca,'XTick', 0:150:900);
 %axis([0 30 6 13])
 xlabel('Simulation time [ns]  [WT-Insulin]','FontSize',45);
-ylabel({'B24(C_{a})-B15(C_{a})','Distance [Å]'},'FontSize',45);
+ylabel({'B24(C_{a})-B15(C_{a})','Distance [Ã…]'},'FontSize',45);
 ax=gca;
 ax.XMinorTick='on';
 ax.YMinorTick='on';
@@ -30,7 +30,7 @@ set(gca,'YTick', 6:3:18);
 set(gca,'XTick', 0:150:900);
 %axis([0 30 6 13])
 xlabel('Simulation time [ns] [SB31-Insulin]','FontSize',45);
-ylabel({'S24(C_{a})-L15(C_{a})','Distance [Å]'},'FontSize',45);
+ylabel({'S24(C_{a})-L15(C_{a})','Distance [Ã…]'},'FontSize',45);
 ax=gca;
 ax.XMinorTick='on';
 ax.YMinorTick='on';
@@ -45,7 +45,7 @@ set(gca,'YTick', 6:3:18);
 set(gca,'XTick', 0:150:900);
 %axis([0 30 0 11])
 xlabel('Simulation time [ns] [SKB32-Insulin]','FontSize',45);
-ylabel({'F24(C_{a})-L15(C_{a})','Distance [Å]'},'FontSize',45);
+ylabel({'F24(C_{a})-L15(C_{a})','Distance [Ã…]'},'FontSize',45);
 ax=gca;
 ax.XMinorTick='on';
 ax.YMinorTick='on';
@@ -110,7 +110,7 @@ set(gca,'YTick', 5:1:14);
 set(gca,'XTick', 0:100:1100);
 %axis([0 30 6 13])
 xlabel('Simulation time [ns]','FontSize',55);
-ylabel({'B24(C_{?})-B15(C_{?})','Distance [Å]'},'FontSize',55);
+ylabel({'B24(C_{?})-B15(C_{?})','Distance [Ã…]'},'FontSize',55);
 ax=gca;
 ax.XMinorTick='on';
 ax.YMinorTick='on';
@@ -120,3 +120,5 @@ ax.FontName='Arial';
 legend({'WT','S^{B31}','S^{B31}K^{B32}'},'FontSize',55,'Location','northwest','Orientation','Horizontal');
 %pbaspect([1 0.6 0.7])
 
+
+% This is a new comment in MAtlab
